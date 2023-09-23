@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação de uma lâmpada</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function mudar(objeto, imagem) {
+            lampada.src = imagem;
+        }
+    </script>
+    <a onmouseover="mudar ('lampada', 'ligada.jpg')" onmouseover="mudar ('lampada', 'desligada.jpg')">
+        <img src="desligada.jpg" alt="" id="lampada">
+    </a>
+</body>
+
+</html>
